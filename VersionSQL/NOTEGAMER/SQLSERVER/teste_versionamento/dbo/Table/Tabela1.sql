@@ -5,6 +5,7 @@ SET QUOTED_IDENTIFIER ON
 CREATE TABLE [dbo].[Tabela1](
 	[id] [smallint] NOT NULL,
 	[descricao] [nchar](10) NULL,
+	[DATA_CRIACAO] [date] NULL,
 PRIMARY KEY CLUSTERED 
 (
 	[id] ASC
